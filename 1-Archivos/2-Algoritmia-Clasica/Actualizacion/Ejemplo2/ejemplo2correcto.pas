@@ -2,6 +2,8 @@ program ejemplo2;
 
 type 
 
+    const valor_corte = 32767;
+
     reg_producto = record
         codigo : string[4];
         descripcion : string;
@@ -42,7 +44,7 @@ begin
 
     { movemos la lectura y el EOF check afuera }
     leer(detalle, venta);
-    while (venta.codigo <> 32767) do begin
+    while (venta.codigo <> valor_corte) do begin
         read(maestro, producto);
         while (producto.codigo <> venta.codigo) do
             read(maestro, producto);
