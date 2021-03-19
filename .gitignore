@@ -4,3 +4,5 @@
 *.out
 *.cfg
 *.exe
+*.dsk
+*.o
