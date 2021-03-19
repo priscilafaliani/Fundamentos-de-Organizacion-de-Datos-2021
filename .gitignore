@@ -6,3 +6,5 @@
 *.exe
 *.dsk
 *.o
+*.ppu
+*.bak
