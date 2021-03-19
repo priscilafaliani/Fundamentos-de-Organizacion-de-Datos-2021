@@ -1,0 +1,6 @@
+# Archivos de compilación con fpc
+*.ini
+*.err
+*.out
+*.cfg
+*.exe
