@@ -126,7 +126,7 @@ var
 begin
     reset(employees);
 
-    assign(export_file, 'employees.txt');
+    assign(export_file, 'exported\employees.txt');
     rewrite(export_file);
 
     while (not eof(employees)) do
@@ -145,8 +145,8 @@ var
     employee : reg_employee;
 begin
     reset(employees);
-    
-    assign(export_file, 'missing_dni.txt');
+
+    assign(export_file, 'exported\missing_dni.txt');
     rewrite(export_file);
 
     while (not eof(employees)) do
