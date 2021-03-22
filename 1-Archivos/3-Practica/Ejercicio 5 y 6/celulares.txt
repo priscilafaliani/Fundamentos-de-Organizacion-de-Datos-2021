@@ -1,0 +1,32 @@
+13 15999 200 155
+apple
+iPhone 12 Pro 5G A2406 Dual SIM TD-LTE JP CA 256GB
+Night mode on iPhone 12 Pro goes Wide and Ultra Wide, and it is even better at capturing natural color in dim light. The new Wide camera captures 27 percent more light. Dual SIM 6 / 256 GB variant for Canada and Japan
+12 20000 150 233
+apple
+iPhone 12 Pro Max 5G A2411 Global Dual SIM TD-LTE 512GB
+Top MY2020 iPhone model sports A14 Bionic SoC, 6.7‑inch Super Retina XDR AMOLED display, 12 MP main wide, 12 MP telephoto, 12 MP ultra-wide cameras, LiDAR scanner (ToF) and 12 MP TrueDepth front camera. International dual SIM 6 / 512 GB variant.
+6 16999 202 200
+apple
+iPhone 12 Pro 5G A2407 Global Dual SIM TD-LTE 512GB
+Mid-size iPhone released in 2020, sporting A14 Bionic SoC, 6.1‑inch Super Retina XDR AMOLED display, 12 MP main wide, 12 MP telephoto, 12 MP ultra-wide cameras, LiDAR scanner and 12 MP TrueDepth front camera. International dual SIM 6 / 512 GB variant.
+8 8999 100 80
+apple
+iPad Air 4th gen 2020 TD-LTE CN A2325 64GB
+iPad Air 2020 for China with different LTE bands, only nano-SIM support and 4 / 64 GB memory
+23 14999 223 250
+apple
+iPhone 12 5G A2403 Global Dual SIM TD-LTE 256GB
+Mid-size iPhone model released in 2020, featuring A14 Bionic SoC, 6.1‑inch Super Retina XDR AMOLED display, 12 MP main wide, 12 MP ultra-wide cameras and 12 MP TrueDepth front camera. International top 4 / 256 GB variant.
+26 13999 222 149
+samsung
+SM-A325F/DS Galaxy A32 4G 2021 Global Dual SIM TD-LTE 128GB
+International dual SIM variant of lower mid-range Galaxy A32 4G smartphone with 4 GiB of RAM and 128 GB ROM
+14 15000 223 400
+samsung
+SM-G525F/DS Galaxy XCover 5 2021 Global Dual SIM TD-LTE
+International dual SIM variant of rugged Galaxy Xcover 5 smartphone with NFC, 4 GiB memory, 64 GB internal storage space, an HD+ 5.3-inch TFT display panel and a 16 MP main camera
+27 17999 148 144
+samsung
+SM-M625F/DS Galaxy M62 2021 Global Dual SIM TD-LTE
+Upper mid-range Samsung phone sports 16.95 cm FHD+ widescreen display powered by Super AMOLED Plus technology, flagship 7nm Exynos 9825 processor and 7000mAh battery and 25W of Super Fast Charging

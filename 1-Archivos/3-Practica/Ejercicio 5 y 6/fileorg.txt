@@ -1,0 +1,9 @@
+la organización del archivo celulares txt: 
+codigo, precio, stock disponible, stock minimo
+marca
+nombre
+descripcion
+
+si no contiene descripcion: se deja una linea en blanco!
+
+cambié la del enunciado porque no funcionaba bien c:
