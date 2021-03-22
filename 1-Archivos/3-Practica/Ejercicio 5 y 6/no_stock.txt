@@ -2,3 +2,7 @@
 samsung
 SM-A325F/DS Galaxy A32 4G 2021 Global Dual SIM TD-LTE 128GB
 International dual SIM variant of lower mid-range Galaxy A32 4G smartphone with 4 GiB of RAM and 128 GB ROM
+18  1.6999000000000000E+004 0 220
+Asus
+ZenFone 7 Pro 2020 Global Dual SIM TD-LTE ZS671KS 256GB
+Flip camera of ZenFone 7 Pro flagship phone gives you three high-quality cameras front and rear. International variant with 8 GiB RAM and 256 GB UFS 3.1 flash memory

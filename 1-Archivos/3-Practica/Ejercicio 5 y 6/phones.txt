@@ -18,7 +18,7 @@ iPad Air 2020 for China with different LTE bands, only nano-SIM support and 4 / 
 apple
 iPhone 12 5G A2403 Global Dual SIM TD-LTE 256GB
 Mid-size iPhone model released in 2020, featuring A14 Bionic SoC, 6.1‑inch Super Retina XDR AMOLED display, 12 MP main wide, 12 MP ultra-wide cameras and 12 MP TrueDepth front camera. International top 4 / 256 GB variant.
-26  1.3999000000000000E+004 222 149
+26  1.3999000000000000E+004 0 149
 samsung
 SM-A325F/DS Galaxy A32 4G 2021 Global Dual SIM TD-LTE 128GB
 International dual SIM variant of lower mid-range Galaxy A32 4G smartphone with 4 GiB of RAM and 128 GB ROM
@@ -30,3 +30,15 @@ International dual SIM variant of rugged Galaxy Xcover 5 smartphone with NFC, 4 
 samsung
 SM-M625F/DS Galaxy M62 2021 Global Dual SIM TD-LTE
 Upper mid-range Samsung phone sports 16.95 cm FHD+ widescreen display powered by Super AMOLED Plus technology, flagship 7nm Exynos 9825 processor and 7000mAh battery and 25W of Super Fast Charging
+18  1.6999000000000000E+004 0 220
+Asus
+ZenFone 7 Pro 2020 Global Dual SIM TD-LTE ZS671KS 256GB
+Flip camera of ZenFone 7 Pro flagship phone gives you three high-quality cameras front and rear. International variant with 8 GiB RAM and 256 GB UFS 3.1 flash memory
+9  1.5999000000000000E+004 150 200
+meizu
+18 Premium Edition Dual SIM TD-LTE CN 256GB M181Q
+Meizu 18 5G flagship smartphone features 2K+ Super AMOLED screen, Snapdragon 888 CPU, 256 GB UFS 3.1 flash memory, 240 Hz touchscreen, 64 + 16 + 8 MP rear camera system and Wi-Fi 6E connectivity
+1  1.6999000000000000E+004 110 223
+motorola
+Moto G10 Power 2021 Dual SIM TD-LTE IN 64GB XT2127-4
+With the 6000 mAh battery, you can use the mobile phone for long hours on a single charge. This way, you do not have to worry about running out of battery soon. This way, you can stream content, listen to music, browse, and much more for a long time.

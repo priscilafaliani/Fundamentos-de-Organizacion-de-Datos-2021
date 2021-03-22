@@ -2,6 +2,9 @@ program ejercicio5;
 
 uses menus, file_managment, sysutils;
 
+const
+    END_PROG = 32767;
+
 var
     user_selection : integer;
     phones : phones_file;
@@ -14,7 +17,7 @@ type
 procedure get_user_selection();
 begin
     readln(user_selection);
-
+    writeln;
     { the user inputs values from 1 but the enum starts at 0 }
     user_selection := user_selection - 1;
 end;
@@ -35,6 +38,7 @@ begin
 
     show_add_phones_menu();
     get_user_selection();
+
 
     case REPEAT_ACTION_OPTION(user_selection) of
         REPEAT_ACTION:
@@ -60,7 +64,6 @@ begin
     assign(phones, 'phones');
     show_initial_menu();
     get_user_selection();
-    writeln;
 
     case INITIAL_MENU_OPTIONS(user_selection) of
         CREATE:
@@ -86,7 +89,7 @@ begin
 
         else begin
             writeln('Goodbye');
-            user_selection := -1;
+            user_selection := END_PROG;
         end;
     end;
 
@@ -94,6 +97,6 @@ begin
 end;
 
 begin
-    while (main() <> -1) do;    
+    while (main() <> END_PROG) do;
     readln;
 end.
