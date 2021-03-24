@@ -38,7 +38,13 @@ procedure create_phones_file(var output : phones_file);
 var
     phone : reg_phone;
     input : text;
+    filepath : string;
 begin
+    write('filepath: ');
+    readln(filepath);
+    assign(output, filepath);
+
+
     { open the input file }
     assign(input, 'celulares.txt');
     reset(input);

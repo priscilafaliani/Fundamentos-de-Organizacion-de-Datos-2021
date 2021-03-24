@@ -5,7 +5,7 @@ uses file_managment, menus;
 type
     INITIAL_MENU_OPTIONS = (CREATE, OPEN);
 
-    OPEN_FILE_MENU_OPTIONS = (SEARCH_BY, SHOW_ALL, TO_BE_RETIRED, ADD_EMPLOYEES, MODIFY_AGE, EXPORT_ALL, EXPORT_MISSING_DNI);
+    OPEN_FILE_MENU_OPTIONS = (SEARCH_BY, SHOW_ALL, TO_BE_RETIRED, ADD_EMPLOYEES, MODIFY_AGE, EXPORT_ALL, EXPORT_MISSING_DNI, END_SELECTION);
 
     { 
         UDPATE/FINISH, YES/NO 
@@ -81,8 +81,10 @@ begin
 end;
 
 procedure open_file_option();
-
-begin
+begin    
+    write('filepath: ');
+    readln(filepath);
+    assign(employees, filepath);
 
     show_open_file_menu();
 
@@ -117,40 +119,30 @@ begin
 end;
 
 function main(): integer;
-var
-    return_value : integer;
 begin
     show_initial_menu(); 
     user_selection := get_selection();
     writeln;
 
-    if ((user_selection < ord(CREATE)) or (user_selection > ord(OPEN))) then
-    begin
-        writeln('exiting');
-        return_value := -1;
-    end
-    else 
-    begin
-        { needed in any option }
-        return_value := 0;
-        write('filepath: ');
-        readln(filepath);
-        assign(employees, filepath);
 
-        case INITIAL_MENU_OPTIONS(user_selection) of
-            CREATE:
-                create_employees_file(employees);
-            OPEN:
-                open_file_option();
+    case INITIAL_MENU_OPTIONS(user_selection) of
+        CREATE:
+            create_employees_file(employees);
+        OPEN:
+            open_file_option();
+        else
+        begin
+            writeln('exiting');
+            user_selection := ord(END_SELECTION);
         end;
     end;
 
-    main := return_value;
+    main := user_selection;
 end;
     
 begin
 
-    while (main() <> -1) do
+    while (main() <> ord(END_SELECTION)) do
         writeln;
     readln;
 end.
