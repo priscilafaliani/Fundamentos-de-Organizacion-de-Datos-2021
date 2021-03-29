@@ -32,6 +32,7 @@ begin
     writeln('4. Exportar archivo detalle');
     writeln('5. Actualizar archivo maestro');
     writeln('6. Exportar datos de quienes aprobaron más de 4 cursadas pero no todos los finales');
+    writeln('Cualquier otro numero para salir');
     writeln;
     writeln('--------------------------')
 end;
@@ -83,8 +84,6 @@ end;
 
 
 procedure leer_reg_alumno_detalle_txt(var data : text; var alumno_detalle : reg_alumno_detalle);
-var
-    espacios : char;
 begin
     if (not eof(data)) then
         read(data, alumno_detalle.codigo, alumno_detalle.aprobo)
@@ -221,7 +220,7 @@ begin
             if alumno_detalle.aprobo = ' final' then
                 alumno_maestro.materias_aprobadas := alumno_maestro.materias_aprobadas + 1 
             else if alumno_detalle.aprobo = ' cursada' then
-                alumno_maestro.materias_cursadas := alumno_maestro.materias_aprobadas + 1;
+                alumno_maestro.materias_cursadas := alumno_maestro.materias_cursadas + 1;
             leer_detalle(detalle, alumno_detalle);
         end;
 
@@ -248,6 +247,7 @@ begin
 
     // creo archivo de export
     assign(exportado, 'aprobaron_cuatro_sin_finales.txt');
+    rewrite(exportado);
 
     while (not eof(maestro)) do
     begin
@@ -263,28 +263,31 @@ begin
     close(exportado);
 end;
 
-
+procedure main();
 var
     eleccion : integer;
-
 begin
     mostrar_menu_inicial();
     readln(eleccion);
 
-    case eleccion of
-        1:
-            crear_archivo_maestro();             
-        2:
-            crear_archivo_detalle();
-        3:
-            exportar_maestro();
-        4: 
-            exportar_detalle();
-        5: 
-            actualizar_maestro();
-        6:
-            mas_de_cuatro();
+    while (eleccion >= 1) and (eleccion <= 6) do
+    begin
+        case eleccion of
+            1: crear_archivo_maestro();             
+            2: crear_archivo_detalle();
+            3: exportar_maestro();
+            4: exportar_detalle();
+            5: actualizar_maestro();
+            6: mas_de_cuatro();
+            else writeln('Finalizado');
+        end;
+        mostrar_menu_inicial();
+        readln(eleccion);
     end;
+end;
 
+
+begin
+    main();
     readln;
 end.

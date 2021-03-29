@@ -4,6 +4,3 @@ faliani
 ezequiel
 faliani
 2 5 3
-sebastian
-faliani
-3 5 7
