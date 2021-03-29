@@ -4,7 +4,7 @@ uses sysutils;
 
 const
     // cantidad de sucursales de las que se recibe un archivo de ventas
-    SUCURSALES = 3;
+    SUCURSALES = 30;
 
     CODIGO_SALIDA = 32767;
 
