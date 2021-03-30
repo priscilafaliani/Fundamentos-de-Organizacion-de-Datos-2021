@@ -112,3 +112,7 @@ begin
 
     close(ventas);    
 end;
+
+begin 
+    realizar_reporte();
+end.
