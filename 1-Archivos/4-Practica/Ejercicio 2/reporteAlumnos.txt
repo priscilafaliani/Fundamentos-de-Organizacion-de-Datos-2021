@@ -1,9 +1,0 @@
-priscila
-faliani
-1 12 11
-ezequiel
-faliani
-2 5 3
-sebastian
-faliani
-3 5 7
